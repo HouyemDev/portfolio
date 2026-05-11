@@ -1,0 +1,32 @@
+{
+  "nav": { "skills": "Skills", "experience": "Experience", "projects": "Projects", "contact": "Contact", "hire": "Hire me" },
+  "hero": {
+    "badge": "Available for opportunities",
+    "title1": "Software", "title2": "Engineer", "title3": "Backend & Full-stack",
+    "sub": "Hi, I'm <strong>Houyem Noomen</strong> — I build scalable backend systems, RESTful APIs and AI/NLP-powered solutions. Master's in Software Engineering. Based in Sousse, Tunisia.",
+    "cta_work": "View my work", "cta_contact": "Get in touch", "cta_resume": "Download Resume",
+    "stat1_num": "2+", "stat1_label": "Years experience",
+    "stat2_num": "5+", "stat2_label": "Tech stacks",
+    "stat3_num": "3+", "stat3_label": "AI / NLP projects"
+  },
+  "skills": { "label": "Technical expertise", "title": "Skills & Stack" },
+  "experience": { "label": "Where I've worked", "title": "Professional Experience", "impact": "Impact" },
+  "projects": { "label": "Things I've built", "title": "Projects", "preview": "Preview", "github": "GitHub" },
+  "education": {
+    "label": "Academic background", "title": "Education",
+    "lang_label": "Languages", "native": "Native · C2", "b2": "Professional · B2",
+    "orgs_label": "Organisations", "orgs_member": "Active member", "orgs_participant": "Participant"
+  },
+  "contact": {
+    "label": "Let's build something together", "title": "Get in touch",
+    "sub": "Open to full-stack, backend or AI engineering roles. If you think I'm a fit, let's talk.",
+    "name": "Your name", "email": "Your email", "company": "Company (optional)",
+    "subject": "Subject", "message": "Your message",
+    "send": "Send message", "sending": "Sending...",
+    "success": "Message sent! I'll reply within 24h.",
+    "error": "Send failed. Please try again or reach out directly.",
+    "or": "or reach me directly",
+    "attach": "Attach a file (optional)"
+  },
+  "footer": { "built": "Designed & built by", "open": "Open to remote" }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "sms-nlp",
+    "icon": "🧠",
+    "color": "cyan",
+    "year": "2024–2026",
+    "title": { "fr": "Système Analyse SMS par IA", "en": "AI SMS Analysis System", "ar": "نظام تحليل الرسائل بالذكاء الاصطناعي" },
+    "description": {
+      "fr": "Pipeline NLP complet pour analyser et classifier des SMS multilingues (arabe, français, anglais). Modèles BERT/DistilBERT pour la classification de texte et extraction d'insights métier.",
+      "en": "Full NLP pipeline to analyze and classify multilingual SMS data (Arabic, French, English). BERT/DistilBERT models for text classification and business insight extraction.",
+      "ar": "خط أنابيب NLP كامل لتحليل وتصنيف الرسائل متعددة اللغات باستخدام نماذج BERT وDistilBERT."
+    },
+    "stack": ["Python", "BERT", "DistilBERT", "spaCy", "NLTK", "FastAPI"],
+    "impact": {
+      "fr": "Classification multilingue arabe, français & anglais",
+      "en": "Multilingual classification across Arabic, French & English",
+      "ar": "تصنيف متعدد اللغات عربي وفرنسي وإنجليزي"
+    },
+    "previewUrl": "",
+    "githubUrl": "https://github.com/houyem-noomen"
+  },
+  {
+    "id": "l2t-platform",
+    "icon": "🏗️",
+    "color": "blue",
+    "year": "2024–2026",
+    "title": { "fr": "Plateforme Full-Stack Entreprise", "en": "Full-Stack Enterprise Platform", "ar": "منصة فول-ستاك للمؤسسات" },
+    "description": {
+      "fr": "Architecture et développement d'une plateforme full-stack chez L2T International avec .NET Core et Laravel. Backend scalable avec cache Redis et traitement asynchrone RabbitMQ.",
+      "en": "Architected and built a full-stack platform at L2T International using .NET Core and Laravel. Scalable backend with Redis caching and RabbitMQ async processing.",
+      "ar": "تصميم وبناء منصة فول-ستاك باستخدام .NET Core وLaravel مع ذاكرة تخزين مؤقت Redis ومعالجة غير متزامنة."
+    },
+    "stack": [".NET Core", "Laravel", "Redis", "RabbitMQ", "PostgreSQL", "REST APIs"],
+    "impact": {
+      "fr": "Performance améliorée via cache & traitement asynchrone",
+      "en": "Improved performance via caching & async processing",
+      "ar": "تحسين الأداء عبر التخزين المؤقت والمعالجة غير المتزامنة"
+    },
+    "previewUrl": "",
+    "githubUrl": "https://github.com/houyem-noomen"
+  },
+  {
+    "id": "crm-ecommerce",
+    "icon": "🛒",
+    "color": "indigo",
+    "year": "2024–2026",
+    "title": { "fr": "Intégration CRM & E-commerce", "en": "CRM & E-commerce Integration", "ar": "تكامل CRM والتجارة الإلكترونية" },
+    "description": {
+      "fr": "Personnalisation des modules CRM Dolibarr pour la gestion des données métier. Développement et intégration de modules PrestaShop et WordPress. Automatisation des workflows et APIs externes.",
+      "en": "Customized Dolibarr CRM modules for business data management. Developed PrestaShop and WordPress modules. Automated workflows and external API integrations.",
+      "ar": "تخصيص وحدات CRM Dolibarr وتطوير وحدات PrestaShop وWordPress مع أتمتة سير العمل والتكامل مع APIs خارجية."
+    },
+    "stack": ["Dolibarr CRM", "PrestaShop", "WordPress", "PHP", "API Integration"],
+    "impact": {
+      "fr": "Workflows métier entièrement automatisés",
+      "en": "Business workflows fully automated",
+      "ar": "أتمتة كاملة لعمليات الأعمال"
+    },
+    "previewUrl": "",
+    "githubUrl": "https://github.com/houyem-noomen"
+  },
+  {
+    "id": "planet-it",
+    "icon": "🌐",
+    "color": "silver",
+    "year": "2023",
+    "title": { "fr": "Plateforme Web – Stage Planet-IT", "en": "Web Platform – Planet-IT Internship", "ar": "منصة ويب – تدريب Planet-IT" },
+    "description": {
+      "fr": "Développement et maintenance d'applications web full-stack lors du stage chez Planet-IT. Interfaces dynamiques, amélioration UX, debug et participation au cycle complet design → déploiement.",
+      "en": "Developed and maintained full-stack web applications during internship at Planet-IT. Dynamic interfaces, UX improvements, debugging, full lifecycle from design to deployment.",
+      "ar": "تطوير وصيانة تطبيقات ويب فول-ستاك خلال التدريب في Planet-IT مع تحسين تجربة المستخدم والمشاركة في الدورة الكاملة."
+    },
+    "stack": ["HTML", "CSS", "JavaScript", "PHP", "Bootstrap"],
+    "impact": {
+      "fr": "Cycle complet de la conception au déploiement",
+      "en": "Full lifecycle from design to deployment",
+      "ar": "دورة كاملة من التصميم إلى النشر"
+    },
+    "previewUrl": "",
+    "githubUrl": "https://github.com/houyem-noomen"
+  }
+]

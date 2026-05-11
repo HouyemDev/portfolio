@@ -1,0 +1,80 @@
+[
+  {
+    "id": "l2t",
+    "icon": "💼",
+    "date": { "fr": "2024 – 2026", "en": "2024 – 2026", "ar": "2024 – 2026" },
+    "role": { "fr": "Ingénieure Logiciel", "en": "Software Engineer", "ar": "مهندسة برمجيات" },
+    "company": "L2T International",
+    "tags": [".NET Core", "Laravel", "Redis", "RabbitMQ", "NLP"],
+    "bullets": {
+      "fr": [
+        "Conception et développement d'applications full-stack avec .NET Core, Laravel et technologies frontend modernes.",
+        "Construction d'architectures backend scalables et interfaces utilisateurs ergonomiques.",
+        "Développement d'APIs RESTful pour le traitement de données et la communication entre systèmes.",
+        "Implémentation de mécanismes de cache Redis pour améliorer les performances.",
+        "Construction de systèmes de traitement asynchrone avec RabbitMQ.",
+        "Personnalisation des modules CRM Dolibarr et intégration de modules PrestaShop / WordPress.",
+        "Conception d'un système NLP pour analyser et classifier des SMS multilingues (arabe, français, anglais)."
+      ],
+      "en": [
+        "Designed and developed full-stack web applications using .NET Core, Laravel and modern frontend technologies.",
+        "Built scalable backend architectures and user-friendly interfaces.",
+        "Developed RESTful APIs for data processing and system communication.",
+        "Implemented Redis caching mechanisms to enhance performance.",
+        "Built asynchronous processing systems using RabbitMQ.",
+        "Customized Dolibarr CRM modules and integrated PrestaShop / WordPress modules.",
+        "Designed an NLP system to analyze and classify multilingual SMS data (Arabic, French, English)."
+      ],
+      "ar": [
+        "تصميم وتطوير تطبيقات ويب فول-ستاك باستخدام .NET Core وLaravel.",
+        "بناء معماريات باك-إند قابلة للتوسع وواجهات مستخدم سهلة الاستخدام.",
+        "تطوير APIs RESTful لمعالجة البيانات والتواصل بين الأنظمة.",
+        "تطبيق آليات تخزين مؤقت Redis لتحسين الأداء.",
+        "بناء أنظمة معالجة غير متزامنة باستخدام RabbitMQ.",
+        "تخصيص وحدات CRM Dolibarr ودمج وحدات PrestaShop وWordPress.",
+        "تصميم نظام NLP لتحليل وتصنيف الرسائل متعددة اللغات."
+      ]
+    },
+    "impact": {
+      "fr": "Architecture scalable, insights IA, workflows automatisés end-to-end",
+      "en": "Scalable architecture, AI insights, end-to-end automated workflows",
+      "ar": "معمارية قابلة للتوسع، رؤى الذكاء الاصطناعي، وسير عمل آلي شامل"
+    }
+  },
+  {
+    "id": "planet",
+    "icon": "🌍",
+    "date": { "fr": "2023", "en": "2023", "ar": "2023" },
+    "role": { "fr": "Développeuse Web (Stage)", "en": "Web Developer Intern", "ar": "متدربة تطوير ويب" },
+    "company": "Planet-IT · Sousse, Tunisie",
+    "tags": ["HTML", "CSS", "JavaScript", "PHP"],
+    "bullets": {
+      "fr": [
+        "Développement et maintenance d'applications web (front-end & back-end).",
+        "Construction d'interfaces dynamiques et amélioration de l'expérience utilisateur.",
+        "Débogage et résolution des problèmes techniques pour améliorer les performances.",
+        "Participation au cycle complet de développement (conception → déploiement).",
+        "Garantie de la fiabilité du système et réalisation des mises à jour."
+      ],
+      "en": [
+        "Developed and maintained web applications (front-end & back-end).",
+        "Built dynamic interfaces and improved user experience.",
+        "Debugged and resolved technical issues to enhance performance.",
+        "Participated in full development lifecycle (design → deployment).",
+        "Ensured system reliability and performed updates and maintenance."
+      ],
+      "ar": [
+        "تطوير وصيانة تطبيقات الويب (الواجهة الأمامية والخلفية).",
+        "بناء واجهات ديناميكية وتحسين تجربة المستخدم.",
+        "تصحيح الأخطاء وحل المشكلات التقنية لتحسين الأداء.",
+        "المشاركة في دورة التطوير الكاملة (التصميم → النشر).",
+        "ضمان موثوقية النظام وإجراء التحديثات والصيانة."
+      ]
+    },
+    "impact": {
+      "fr": "Participation complète design → déploiement, fiabilité assurée",
+      "en": "End-to-end participation from design to deployment, reliability ensured",
+      "ar": "مشاركة كاملة من التصميم إلى النشر وضمان الموثوقية"
+    }
+  }
+]

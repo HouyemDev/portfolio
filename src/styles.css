@@ -1,0 +1,157 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:        #050810;
+  --bg2:       #080d1a;
+  --bg3:       #0d1526;
+  --bg4:       #111e35;
+  --blue:      #1e6fff;
+  --blue-dim:  #1550cc;
+  --cyan:      #38bdf8;
+  --silver:    #94a3b8;
+  --silver-hi: #cbd5e1;
+  --text:      #e8edf5;
+  --muted:     #64748b;
+  --border:    rgba(148,163,184,0.1);
+  --border-hi: rgba(148,163,184,0.22);
+  --card:      rgba(14,24,50,0.6);
+  --glow-blue: rgba(30,111,255,0.18);
+  --glow-cyan: rgba(56,189,248,0.12);
+  --radius:    14px;
+  --font-mono: 'JetBrains Mono', 'Fira Mono', monospace;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+body[dir="rtl"] {
+  font-family: 'Segoe UI', 'Noto Sans Arabic', 'Space Grotesk', sans-serif;
+}
+
+section { padding: 6rem 5vw; }
+
+.section-label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--cyan);
+  font-weight: 400;
+  margin-bottom: 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.section-label::before {
+  content: '//';
+  color: var(--muted);
+}
+
+.section-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  letter-spacing: -0.5px;
+  line-height: 1.15;
+  margin-bottom: 3rem;
+  color: var(--text);
+}
+
+/* Buttons */
+.btn-primary {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  background: var(--blue);
+  color: #fff;
+  padding: 0.75rem 1.6rem;
+  border-radius: 8px;
+  font-size: 0.9rem; font-weight: 600;
+  cursor: pointer; border: none;
+  font-family: 'Space Grotesk', sans-serif;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+  box-shadow: 0 0 24px rgba(30,111,255,0.35);
+  text-decoration: none;
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(30,111,255,0.5);
+  background: #2d7fff;
+}
+
+.btn-outline {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  background: transparent;
+  border: 1px solid var(--border-hi);
+  color: var(--silver-hi);
+  padding: 0.75rem 1.6rem;
+  border-radius: 8px;
+  font-size: 0.9rem; font-weight: 500;
+  cursor: pointer; text-decoration: none;
+  font-family: 'Space Grotesk', sans-serif;
+  transition: border-color 0.2s, background 0.2s, color 0.2s;
+}
+.btn-outline:hover {
+  border-color: var(--cyan);
+  color: var(--cyan);
+  background: rgba(56,189,248,0.06);
+}
+
+/* Tag */
+.tag {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  padding: 0.2rem 0.65rem;
+  background: rgba(30,111,255,0.1);
+  border: 1px solid rgba(30,111,255,0.2);
+  border-radius: 4px;
+  color: var(--silver);
+}
+
+/* Card base */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s;
+  backdrop-filter: blur(8px);
+}
+.card:hover {
+  border-color: rgba(30,111,255,0.35);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 40px rgba(30,111,255,0.12);
+}
+
+/* Animations */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulseBlue {
+  0%,100% { opacity:1; transform:scale(1); box-shadow: 0 0 0 0 rgba(30,111,255,0.6); }
+  50%      { opacity:0.7; transform:scale(1.3); box-shadow: 0 0 0 6px rgba(30,111,255,0); }
+}
+@keyframes scanline {
+  from { transform: translateY(-100%); }
+  to   { transform: translateY(100vh); }
+}
+@keyframes blink {
+  0%,100% { opacity: 1; } 50% { opacity: 0; }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg2); }
+::-webkit-scrollbar-thumb { background: var(--bg4); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--blue-dim); }
+
+@media (max-width: 640px) {
+  section { padding: 4rem 5vw; }
+  .section-title { font-size: 1.5rem; }
+}

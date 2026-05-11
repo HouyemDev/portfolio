@@ -1,0 +1,32 @@
+{
+  "nav": { "skills": "Compétences", "experience": "Expérience", "projects": "Projets", "contact": "Contact", "hire": "M'embaucher" },
+  "hero": {
+    "badge": "Disponible pour de nouvelles opportunités",
+    "title1": "Ingénieure", "title2": "Logiciel", "title3": "Backend & Full-stack",
+    "sub": "Bonjour, je suis <strong>Houyem Noomen</strong> — je construis des systèmes backend scalables, des APIs RESTful et des solutions IA/NLP. Master en Génie Logiciel. Basée à Sousse, Tunisie.",
+    "cta_work": "Voir mes projets", "cta_contact": "Me contacter", "cta_resume": "Télécharger mon CV",
+    "stat1_num": "2+", "stat1_label": "Ans d'expérience",
+    "stat2_num": "5+", "stat2_label": "Stacks maîtrisés",
+    "stat3_num": "3+", "stat3_label": "Projets IA / NLP"
+  },
+  "skills": { "label": "Expertise technique", "title": "Compétences & Stack" },
+  "experience": { "label": "Où j'ai travaillé", "title": "Expérience Professionnelle", "impact": "Impact" },
+  "projects": { "label": "Ce que j'ai construit", "title": "Projets", "preview": "Aperçu", "github": "GitHub" },
+  "education": {
+    "label": "Formation académique", "title": "Éducation",
+    "lang_label": "Langues", "native": "Natif · C2", "b2": "Professionnel · B2",
+    "orgs_label": "Organisations", "orgs_member": "Membre actif", "orgs_participant": "Participant"
+  },
+  "contact": {
+    "label": "Construisons quelque chose ensemble", "title": "Me contacter",
+    "sub": "Ouverte aux postes full-stack, backend ou ingénierie IA. Si vous pensez que je correspond, discutons-en.",
+    "name": "Votre nom", "email": "Votre email", "company": "Entreprise (optionnel)",
+    "subject": "Sujet", "message": "Votre message",
+    "send": "Envoyer le message", "sending": "Envoi en cours...",
+    "success": "Message envoyé ! Je vous réponds sous 24h.",
+    "error": "Échec de l'envoi. Réessayez ou écrivez-moi directement.",
+    "or": "ou contactez-moi directement",
+    "attach": "Joindre un fichier (optionnel)"
+  },
+  "footer": { "built": "Conçu & développé par", "open": "Ouvert au remote" }
+}
